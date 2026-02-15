@@ -17,7 +17,7 @@ alarm = Alarm()
 # ===============================
 # Camera Stream (UPDATE IP IF NEEDED)
 # ===============================
-url = "http://10.74.9.26:4747/video"
+#url = "http://ip_address/video"
 cap = cv2.VideoCapture(url)
 
 
@@ -116,3 +116,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
